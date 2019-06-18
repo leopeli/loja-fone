@@ -9,3 +9,7 @@ ul {
 	list-style: none;
 	font-size: 21px;
 }
+
+a {
+	text-decoration: none;
+}

@@ -4,7 +4,12 @@ body {
 
 .header {
     background-color: #e24647;
-    padding: 55px 60px;
+    margin: 0 115px;
+    padding: 55px 60px 95px;;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
 }
 
 .header__logo {
@@ -21,4 +26,24 @@ body {
 .header__menu-item {
     display: inline-block;
     margin-left: 60px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 18px 0;
+    width: 218px;
+    text-align: center;
+}
+
+a.btn{
+    color: #fff;
+}
+
+.btn__primary {
+    background-color: #252c41;
+}
+
+
+.btn__secondary {
+    background-color: #e24647;
 }
