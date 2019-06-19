@@ -1,0 +1,28 @@
+body {
+    color: #fff;
+}
+
+.header {
+
+    overflow: hidden;
+}
+
+.header__logo {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.header__menu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+}
+
+.header__menu-item {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.header__menu-item:nth-last-child(1) {
+    margin-right: 0;
+}
